@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card {
+  margin-bottom: 20px;
+  background: #f7f7fa;
+  border: 1px solid #3a86ff;
+}
+
+.table {
+  background-color: #fff;
+  border: 2px solid #3a86ff;
+  color: #22223b;
+}
+
+.table thead {
+  background: #3a86ff;
+  color: #fff;
+}
+
+h2, h3, h4 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  color: #8338ec;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  background: #ffbe0b;
+  border: none;
+  color: #22223b;
+  font-weight: 600;
+}
+
+a {
+  color: #3a86ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff006e;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  border: 1px solid #8338ec;
+}
+
+.modal-content {
+  border-radius: 10px;
+  background: #f7f7fa;
+}
